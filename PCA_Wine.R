@@ -24,7 +24,8 @@ pca$scores[,1:3]
 mydata <- cbind(wine,pca$scores[,1:3])
 View(mydata)
 
-clust_data <-mydata[,8:10]
+#considering only pca scores as they represent the data
+clust_data <-mydata[,15:17]
 
 
 #Normalize the data
