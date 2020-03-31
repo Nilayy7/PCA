@@ -40,7 +40,7 @@ plot(fit)
 
 rect.hclust(fit, k=7, border="green")
 
-group<-cutree(fit1,7)
+group<-cutree(fit,7)
 
 cluster <-as.matrix(group)
 View(cluster)
